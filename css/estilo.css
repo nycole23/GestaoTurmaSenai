@@ -3,8 +3,14 @@
 @import "cores.css";
 @import "reset.css";
 
+
+@font-face {
+    font-family: Barbie;
+    src: url(fonts/Barbie.otf);
+}
 body{
     background-color: #f0ffff;
+    font-family: Barbie;
 }
 ul{
     list-style: none;
