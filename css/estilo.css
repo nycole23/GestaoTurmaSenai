@@ -9,11 +9,69 @@
     src: url(fonts/Barbie.otf);
 }
 body{
-    background-color: #f0ffff;
+    background-color: #000000;
     font-family: Barbie;
 }
 .tituloPrincipal{
     text-align: center;
+}
+.tituloPrincipal span:nth-child(1){
+    text-align: center;
+    color: var(--azulzinho);
+}
+.tituloPrincipal span:nth-child(2){
+    text-align: center;
+    color: var(--amarelinho);
+}
+.tituloPrincipal span:nth-child(3){
+    text-align: center;
+    color: var(--azulzinho);
+}
+.tituloPrincipal span:nth-child(4){
+    text-align: center;
+    color: var(--amarelinho);
+}
+.tituloPrincipal span:nth-child(5){
+    text-align: center;
+    color: var(--azulzinho);
+}
+.tituloPrincipal span:nth-child(6){
+    text-align: center;
+    color: var(--amarelinho);
+}
+.tituloPrincipal span:nth-child(7){
+    text-align: center;
+    color: var(--azulzinho);
+}
+.tituloPrincipal span:nth-child(8){
+    text-align: center;
+    color: var(--amarelinho);
+}
+.tituloPrincipal span:nth-child(9){
+    text-align: center;
+    color: var(--azulzinho);
+}
+
+.tituloPrincipal span:nth-child(10){
+    text-align: center;
+    color: var(--amarelinho);
+}
+.tituloPrincipal span:nth-child(11){
+    text-align: center;
+    color: var(--azulzinho);
+}
+.tituloPrincipal span:nth-child(12){
+    text-align: center;
+    color: var(--amarelinho);
+}
+
+.tituloPrincipal span:nth-child(13){
+    text-align: center;
+    color: var(--azulzinho);
+}
+.tituloPrincipal span:nth-child(14){
+    text-align: center;
+    color: var(--amarelinho);
 }
 .img-banner {
     margin-left: auto;
@@ -21,7 +79,7 @@ body{
 }
 
 header {
-    background-color: rgb(14, 171, 199);
+    background-color:var(--azulzinho);
 }
 .menu {
     text-align: center;
@@ -34,8 +92,8 @@ header {
 .menu ul li {
     display: inline-block;
     padding: 20px;
-    border: 1px solid #000;
-    background-color: aqua;
+    border: 1px solid var(--CorPreta);
+    background-color: var(--azulzinhozinho);
 }
 
 section {
@@ -48,16 +106,16 @@ section {
 #turmas .sala {
     display: inline-block;
     vertical-align: top;
-    background-color: burlywood;
+    background-color: var(--amarelinho);
     min-height: 300px;
     width: 100%;
     min-height: 350px;
-    border: 2px solid #000;
+    border: 2px solid var(--CorPreta);
     box-sizing: border-box;
 }
 
 #turmas footer {
-    background-color: red;
+    background-color: var(--rosinha);
 }
 
 #turmas footer h3 {
@@ -65,12 +123,12 @@ section {
 }
 
 #turmas .sala.turma_A{
-    background-color: bisque;
-    color: #000;
+    background-color: var(--amarelinho);
+    color: var(--CorPreta);
 }
 
 #turmas .sala.turma_B{
-    background-color: blueviolet;
+    background-color: var(--lilas);
 }
 
 
