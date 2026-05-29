@@ -12,21 +12,72 @@ body{
     background-color: #f0ffff;
     font-family: Barbie;
 }
-ul{
-    list-style: none;
+.tituloPrincipal{
     text-align: center;
 }
-ul li{
-    padding: 10px 2px;
+.img-banner {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: rgb(14, 171, 199);
+}
+.menu {
+    text-align: center;
+    margin: 20px 0;
+}
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
     display: inline-block;
-    background-color: #463e34;
+    padding: 20px;
+    border: 1px solid #000;
+    background-color: aqua;
 }
-ul li :hover{
-    background-color: #b9a285;
+
+section {
+    /* background-color: aquamarine; */
 }
-ul li a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #8f7f3e;
-    font-size: 20pt;
+
+/* section section{
+           font-size: 0;
+        }    */
+#turmas .sala {
+    display: inline-block;
+    vertical-align: top;
+    background-color: burlywood;
+    min-height: 300px;
+    width: 100%;
+    min-height: 350px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+
+#turmas footer {
+    background-color: red;
+}
+
+#turmas footer h3 {
+    font-size: smaller;
+}
+
+#turmas .sala.turma_A{
+    background-color: bisque;
+    color: #000;
+}
+
+#turmas .sala.turma_B{
+    background-color: blueviolet;
+}
+
+
+.listaAlunos {
+    list-style: decimal-leading-zero;
+    margin-left: 30px;
+}
+.listaAlunos li {
+    padding: 5px;
 }
